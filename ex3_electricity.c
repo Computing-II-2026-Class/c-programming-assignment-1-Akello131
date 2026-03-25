@@ -1,13 +1,12 @@
 /* Name: Akello Esther Okalany */
-/* Student Number: 2500800023 */
-/* Registration Number: 25/U/BIO/023/GV */
+/* Student Number: 2500800023 25/U/BIO/023/GV*/
+
 
 #include <stdio.h>
 
 int main(void)
 {
-    float UC;
-    int C, Bill;
+    float UC, C, Bill;
     //UC is the Units Consumed
     //C is the Cost Per Unit
     
@@ -15,10 +14,10 @@ int main(void)
     scanf("%f", &UC);
     
     printf("Enter Cost Per Unit: ");
-    scanf("%d", &C);
+    scanf("%f", &C);
     
     Bill = UC*C;
-    printf("Total Bill: %.dShs.", Bill);
+    printf("Total Bill: %.2f UGX", Bill);
 
     return 0;
 }
