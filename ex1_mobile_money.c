@@ -1,5 +1,5 @@
 /* Name: Akello Esther Okalany */
-/* Student Number: 2500800023 25/U/BIO/023/GV*/-
+/* Student Number: 2500800023 25/U/BIO/023/GV*/
 
 #include <stdio.h>
 
